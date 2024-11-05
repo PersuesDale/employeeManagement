@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.MEL-MainDiv {
+
+    background-color: #202324;
+    background-size: 100%;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: Afacad Flux;    
+
+}
+
+.MEL-TableContain {
+
+    border: 2px solid;
+    width: max-content;
+    height: max-content;
+    border-radius: 5px;
+
+}
+
+.MEL-Table {
+
+    border-radius: 15px;
+    width: max-content;
+
+}
+
+.MEL-thead {
+
+    width: max-content;
+
+}
+
+.MEL-tr-top {
+
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50px;
+
+}
+
+.MEL-thead-th {
+
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-right: 2px solid white;
+
+}
+
+.MEL-tbody {
+
+    border-top: 2px solid white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+td {
+
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.MEL-td {
+
+    border-right: 2px white solid;
+
+}

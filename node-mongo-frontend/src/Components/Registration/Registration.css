@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.MainDiv {
+
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-family: Afacad Flux;
+    background-color: #202324;
+    color: white;
+    padding-bottom:50px;
+}
+
+.InputContain {
+
+    display:flex;
+    flex-direction:column;
+    gap: 20px;
+    justify-content:center;
+    border: 1px solid #000;
+    width: max-content;
+    padding:50px;
+    margin-top:50px;
+    gap: 24px;
+
+}
+
+.Header {
+
+    text-align: center;
+
+}
+
+.InputFieldContain {
+
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+}
+
+.InputFieldContainLeft {
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+
+}
+
+.InputFieldContainRight {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.InputDiv {
+
+    display: flex;
+    flex-direction:  row;
+    gap: 15px;
+    text-align: center;
+
+}
+
+/* .UID {
+
+    margin-left: 80px;
+
+}
+
+.Email {
+
+    margin-left: 90px;
+
+}
+
+.Pass {
+
+    margin-left: 61px;
+
+} */
+
+.RegisterButton {
+
+    margin-left:50%;
+    transform:translate(-50%);
+}
+
+.RegisteredDiv {
+
+    margin-left:50%;
+    transform:translate(-50%);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap: 15px;
+    width:max-content;
+
+}
+
+.LoginButton {
+
+    width:min-content;
+
+}
